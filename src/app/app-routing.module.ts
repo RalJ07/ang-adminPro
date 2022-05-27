@@ -9,17 +9,17 @@ import { PagesRoutingModule } from './pages/pages-routing.module';
 
 
 const routes: Routes = [
- // {
- //   path:'',
- //   loadChildren: () => import ('./pages/pages.module').then(m => m.PagesModule)
-  //},
-  //{
- //   path:'',
- //   loadChildren: () => import ('./auth/auth.module').then( m => m.AuthModule)
-//  },
-  {path: '', redirectTo:'/dashboard', pathMatch: 'full'},
-  {path: '**',component: NopageComponent},
-  
+// {
+//   path:'',
+//   loadChildren: () => import ('./pages/pages.module').then(m => m.PagesModule)
+// },
+// {
+//   path:'',
+//   loadChildren: () => import ('./auth/auth.module').then( m => m.AuthModule)
+// },
+{path: '', redirectTo:'/dashboard', pathMatch: 'full'},
+{path: '**',component: NopageComponent},
+
 
 ]
 
