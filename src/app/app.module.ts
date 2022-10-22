@@ -14,6 +14,7 @@ import { ComponentsModule } from './components/components.module';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { ComponentsModule } from './components/components.module';
     AuthModule,
     SharedModule,
     PagesModule,
-    ComponentsModule
+    ComponentsModule,
+    
     
   ],
   providers: [],
